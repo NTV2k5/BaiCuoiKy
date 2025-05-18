@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+    width: 100%;
+    max-width: 1366px;
+    height: 66vh;
+    background-image: url(image/Banner_DVSEO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar{
+    background-image: linear-gradient(rgb(12, 210, 121), rgba(46, 169, 221, 0.813));
+    width: 100%;
+    max-width: 1366px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    position: fixed;
+    z-index: 1;
+  }
+ /*Logo home*/
+ .logo_home{
+    padding: 4px;
+   img{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 10px;
+   }
+ 
+  }
+  /*Menu*/
+  .menu{
+    display: flex;
+    padding: 2.5vh;
+    gap: 2vw;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: border;
+    }
+  }
+  .menu a:hover{
+    border-bottom: solid rgba(7, 87, 111, 0.31) 5px;
+  }
+  .bigSection
+  {
+    width: 100%;
+    max-width: 1366px;
+    height: 135vh;
+  }
+  .sec1{
+    width: 100%;
+    max-width: 1366px;
+    height: 15vh;
+    border: solid rgb(14, 100, 57) 1px;
+    justify-items: center;
+        h2{
+            padding: 10px;
+            color: rgb(164, 13, 13);
+        }
+        p{
+            font-size: 12px;
+        }
+  }
+  .sec2{
+    width: 100%;
+    max-width: 1366px;
+    height: 50vh;
+    border: solid rgb(14, 100, 57) 1px;
+    background-image: url(image/DVSEO1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+  }
+  .content{
+    width:30%;
+    max-width: 1366px;
+    height:30vh;
+    justify-items: center;
+    gap: 5px;
+    padding: 20px;
+    margin-top: 20vh;
+    margin-left: -35vw;
+  }
+  .nd{
+    margin-top: 5px;
+  }
+  .sub_ct{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 9px;
+    margin-top: 5px;
+    transition: background-image;
+    p{
+        color: white;
+        font-weight: bold;
+    }
+  }
+  .sub_ct:hover{
+    background-image:linear-gradient(to right, #086090c0, #47fa7183);
+  }
+  .sec3{
+    width: 100%;
+    max-width: 1366px;
+    height: 70vh;
+    justify-items: center;
+    h2{
+        margin-top: 20px;
+        color: rgb(164, 13, 13);
+    }
+  }
+  .Total{
+    width: 100%;
+    display: flex;
+    gap: 20vw;
+    justify-content: center;
+    height: 50vh;
+    background-image: linear-gradient(to right, #1dbab5fc, #27a8eebe);;
+    padding: 2vh;
+    margin-top: 4vh;
+  }
+  .the{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    background-image: linear-gradient(rgba(253, 253, 253, 0.03), rgba(30, 255, 154, 0.962));
+    margin-top: 2.5vh;
+    transition: background-image;
+    transition: transform 0.3s ease-in;
+    h4{
+        color: white;
+    }
+  }
+.the:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.109));
+}
+.the:hover{
+    transform: scale(1.1);
+}
+footer{
+    width: 100%;
+    max-width: 1366px;
+    height: 78vh;
+    background-image: url(image/footerimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer_container{
+    width: 100%;
+    max-width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.fInfo{
+    width: 35%;
+    height: 78vh;
+    padding: 15px;
+    h3{
+        color: white;
+    }
+    p{
+        color: white;
+        padding: 10px;
+    }
+    border-right: solid white 1px;
+}
+.gps{
+    padding: 10px;
+}
+.gps div{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.fDV{
+    width: 30%;
+    height: 78vh;
+    h3{
+        padding:5vh;
+        color: white;
+        font-size: 20px;
+    }
+    ul{
+        line-height: 2.5em;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        transition: color;
+    }
+    li{
+        margin-left: 20px;
+        transition: transform 0.4s ease-in;
+    }
+    border-right: solid white 1px;
+}
+.fDV li:hover{
+    transform: scale(1.1);
+}
+.fDV a:hover{
+    color: rgb(1, 98, 209);
+}
+.fMap{
+    width: 45%;
+    iframe{
+        margin-left: 45px;
+        padding: 5px;
+    }
+    div{
+        margin-top: 40px;
+    }
+    a{
+       margin-left: 70%;
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+    }
+}
+/*Reposive*/
+/*Màn hình ( 10 -14 inch)*/
+@media(max-width :1300px){
+  body{
+    font-size: 12px;
+  }
+  footer{
+    height:89vh;
+  }
+}

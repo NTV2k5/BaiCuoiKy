@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* NAVIGATION */
+  /*Chỉnh background*/
+  header{
+    background-image: url(image/Banner_NhanDien.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1366px;
+    height: 95vh;
+    margin: 0;
+  }
+  .navbar{
+    background-image: linear-gradient(rgba(57, 162, 157, 0.872), rgba(255, 255, 255, 0.958));
+    width: 100%;
+    max-width: 1366px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    position: fixed;
+    z-index: 1;
+  }
+ /*Logo home*/
+ .logo_home{
+    padding: 4px;
+   img{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 10px;
+   }
+ 
+  }
+  /*Menu*/
+  .menu{
+    display: flex;
+    padding: 2.5vh;
+    gap: 2vw;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: border;
+    }
+  }
+  .menu a:hover{
+    border-bottom: solid rgba(7, 87, 111, 0.31) 5px;
+  }
+  /*Nhan tu van*/
+  .tuvan{
+    width: 10vw;
+    margin-top: 68vh;
+    margin-left: 75vw;
+    a{
+        text-decoration: none;
+        color: rgb(233, 233, 233);
+        width: 1.5vw;
+        border: solid rgb(245, 245, 245) 3px;
+        padding: 5px;
+        border-radius: 9px;
+        background-image: linear-gradient(to right, #14885845, #062e442c);
+        font-weight: bold;
+        transition: background-color;
+        box-shadow: rgba(0, 0, 0, 0.141) 5px 5px;
+    }
+  }
+  .tuvan a:hover{
+    background-color: rgba(0, 0, 255, 0.292);
+  }
+
+/*Section*/
+.bigSection{
+    width: 100%;
+    max-width: 1366px;
+}
+/* đoạn section 1*/
+.sec1{
+    justify-items: center;
+    width: 100%;
+    height: 75vh;
+    padding: 10px;
+}
+.sec1Title, .sec2Tittle
+{
+    padding: 10px;
+    color: rgba(7, 129, 195, 0.867);
+}
+.tongDV{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    gap: 50px;
+}
+.dichVu1, .dichVu2{
+    width: 30vw;
+    height:58vh;
+    justify-items: center;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.024), #062e442c);
+    box-shadow: rgba(0, 0, 0, 0.165) 5px 4px;
+    border-radius: 10px;
+    transition: background-image;
+    h2{
+        padding: 5px;
+    }
+}
+.dichVu1:hover, .dichVu2:hover{
+    background-image:linear-gradient(to right, #ffffff84, #159cc583);
+}
+.price{
+    width: 100%;
+    background-image: linear-gradient(to right, #21212111, #1819192f);
+    text-align: center;
+    padding: 1vh;
+    border-radius: 8px;
+    transition: background-image;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size:32px;
+        font-weight: bold;
+        transition: color;
+    }
+    sup{
+        font-size: 16px;
+    }
+}
+.price:hover{
+    background-image:linear-gradient(to right, #086090c0, #47fa7183);
+}
+.price a:hover{
+    color: white;
+}
+.dichVu1_content{
+    width: 100%;
+    height: 35vh;
+    padding: 10px;
+    margin-left: 45px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    margin-top: 1vh;
+    padding: 1px;
+}
+.xemthem{
+    width: 70%;
+    background-image:linear-gradient(to right, #086090c0, #47fa7183);
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+    a{
+        text-decoration: none;
+        color: white;
+        transition: color;
+    }
+}
+.xemthem a:hover{
+    color: rgba(3, 31, 42, 0.859);
+}
+.sec2{
+    width: 100%;
+    max-width: 1366px;
+    height: 80vh;
+    justify-items: center;
+}
+.tongDV2{
+    width: 100%;
+    max-width: 1366px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 4vw;
+}
+.dichVu2{
+    width: 40%;
+    text-align: center;
+}
+.dichVu2_content{
+    margin-left: -50px;
+    gap:10px;
+}
+.xemthem2{
+    width: 100%;
+    padding: 5px;
+    background-image:linear-gradient(to right, #086090c0, #47fa7183);
+    border-radius: 8px;
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        color: white;
+        transition: color;
+    }
+}
+.xemthem2 a:hover{
+    color: rgb(6, 47, 33);
+}
+footer{
+    width: 100%;
+    max-width: 1366px;
+    height: 80vh;
+    background-image: url(image/footerimage.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+.footer_container{
+    width: 100%;
+    max-width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.fInfo{
+    width: 35%;
+    height: 78vh;
+    padding: 15px;
+    h3{
+        color: white;
+    }
+    p{
+        color: white;
+        padding: 10px;
+    }
+    border-right: solid white 1px;
+}
+.gps{
+    padding: 10px;
+}
+.gps div{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.fDV{
+    width: 30%;
+    height: 78vh;
+    h3{
+        padding:5vh;
+        color: white;
+        font-size: 20px;
+    }
+    ul{
+        line-height: 2.5em;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        transition: color;
+    }
+    li{
+        margin-left: 20px;
+        transition: transform 0.4s ease-in;
+    }
+    border-right: solid white 1px;
+}
+.fDV li:hover{
+    transform: scale(1.1);
+}
+.fDV a:hover{
+    color: rgb(1, 98, 209);
+}
+.fMap{
+    width: 45%;
+    iframe{
+        margin-left: 45px;
+        padding: 5px;
+    }
+    div{
+        margin-top: 40px;
+    }
+    a{
+       margin-left: 70%;
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+    }
+}
+/*Reposive*/
+/*Màn hình ( 10 -14 inch)*/
+@media(max-width :1300px){
+    body{
+      font-size: 12px;
+    }
+    footer{
+      height:89vh;
+    }
+  }
